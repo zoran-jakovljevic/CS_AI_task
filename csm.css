@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    padding: 30px;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+#tableContainer{
+    max-width: 1400px;
+}
+
+#inputContainer{
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#inputFile {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+button {
+    padding: 8px 8px;
+    border: none;
+    background: #4a6cf7;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s ease;
+    margin-left: 5px;
+}
+
+button:hover {
+    background: #3a57d6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+th {
+    background: #4a6cf7;
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background: #eef3ff;
+}
+
+#summaryButton {
+    margin-top: 15px;
+}
+
+#summaryDiv {
+    margin-top: 15px;
+    padding: 15px;
+    background: #eef3ff;
+    border-radius: 8px;
+    display: none;
+    line-height: 1.6;
+}
+
+#summaryDiv.visible {
+    display: block;
+}
